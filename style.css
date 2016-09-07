@@ -71,23 +71,23 @@ header
 
 .layer-windmill
 {
-    background : url('_images/windmill2.png') bottom left no-repeat;
+    background : url('images/windmill2.png') bottom left no-repeat;
     height     : 900px;
 }
 
 .layer-stars
 {
-    background : url('_images/stars4.png');
+    background : url('images/stars4.png');
 }
 
 .layer-moon
 {
-    background : url('_images/moon2.png') top right no-repeat;
+    background : url('images/moon2.png') top right no-repeat;
 }
 
 .layer-clouds-1
 {
-    background            : url('_images/clouds2.png') top no-repeat;
+    background            : url('images/clouds2.png') top no-repeat;
     background-position-x : 95%;
     background-size       : 55%;
     opacity               : 0.75;
@@ -95,7 +95,7 @@ header
 
 .layer-clouds-2
 {
-    background            : url('_images/clouds2-2.png') top no-repeat;
+    background            : url('images/clouds2-2.png') top no-repeat;
     background-position-x : -20%;
     background-size       : 55%;
     opacity               : 0.75;
@@ -103,5 +103,5 @@ header
 
 .layer-mountain
 {
-    background : url('_images/mountain2.png');
+    background : url('images/mountain2.png');
 }
