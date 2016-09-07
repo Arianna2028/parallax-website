@@ -1,0 +1,107 @@
+/*
+ *  values:
+ *      parallax header height: 800px
+ *      sky color: #290f5a
+ *      font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+ *      font color: #8c8c8c
+ */
+
+body
+{
+    margin : 0 auto;
+    background-color : #000;
+}
+
+#main-body
+{
+    height           : 1000px;
+    background-color : #000;
+}
+
+.text-wrapper
+{
+    width       : 80%;
+    margin      : 0 auto;
+    padding     : 6em 0;
+    font-family : "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color       : #8c8c8c;
+}
+
+.text-column
+{
+    -webkit-column-count : 2; /* Chrome, Safari, Opera */
+    -moz-column-count    : 2; /* Firefox */
+    column-count         : 2;
+}
+
+h1
+{
+    margin : .5em auto;
+}
+
+p
+{
+    margin : 0 auto;
+}
+
+/*
+ *  ===PARALLAX HEADER===
+ */
+header
+{
+    height   : 800px;
+    overflow : hidden;
+    position : relative;
+}
+
+.layer
+{
+    background-size : auto;
+    background      : no-repeat bottom center;
+    width           : 100%;
+    height          : 800px;
+    position        : fixed;
+    z-index         : -1;
+}
+
+.layer-bg
+{
+    background-color : #290f5a;
+}
+
+.layer-windmill
+{
+    background : url('../_images/parallax/windmill2.png') bottom left no-repeat;
+    height     : 900px;
+}
+
+.layer-stars
+{
+    background : url('../_images/parallax/stars4.png');
+}
+
+.layer-moon
+{
+    background : url('../_images/parallax/moon2.png') top right no-repeat;
+}
+
+.layer-clouds-1
+{
+    background            : url('../_images/parallax/clouds2.png') top no-repeat;
+    background-position-x : 95%;
+    background-size       : 55%;
+    opacity               : 0.75;
+}
+
+.layer-clouds-2
+{
+    background            : url('../_images/parallax/clouds2-2.png') top no-repeat;
+    background-position-x : -20%;
+    background-size       : 55%;
+    opacity               : 0.75;
+}
+
+.layer-mountain
+{
+    background : url('../_images/parallax/mountain2.png');
+}
