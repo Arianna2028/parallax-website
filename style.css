@@ -73,6 +73,8 @@ header
 {
     background : url('images/windmill2.png') bottom left no-repeat;
     height     : 900px;
+    background-size: 32%;
+    width: 100%;
 }
 
 .layer-stars
@@ -103,5 +105,9 @@ header
 
 .layer-mountain
 {
-    background : url('images/mountain2.png');
+    background : url('images/mountain2.png') no-repeat;
+    background-position-y: -15%;
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
 }
